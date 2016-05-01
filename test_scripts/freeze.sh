@@ -1,0 +1,1 @@
+echo "freeze.sh file ran successfully"

@@ -1,0 +1,1 @@
+echo "uninstall.sh file ran successfully"

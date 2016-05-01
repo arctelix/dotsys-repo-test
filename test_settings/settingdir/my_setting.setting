@@ -1,0 +1,21 @@
+install () {
+    echo "setting.sh install ran successfully"
+}
+
+uninstall () {
+    echo "setting.sh uninstall ran successfully"
+}
+
+upgrade () {
+    echo "setting.sh upgrade ran successfully"
+}
+
+update () {
+    echo "setting.sh update ran successfully"
+}
+
+freeze () {
+    echo "setting.sh freeze ran successfully"
+}
+
+?@
