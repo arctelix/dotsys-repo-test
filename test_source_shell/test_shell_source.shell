@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "  -> test_shell_source.shell has been sourced!"
+

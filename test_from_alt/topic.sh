@@ -1,19 +1,21 @@
 install () {
-    echo "topic.sh install ran successfully"
+printf "topic.sh install ran successfully with params: $@"
 }
 
 uninstall () {
-    echo "topic.sh uninstall ran successfully"
+printf "topic.sh uninstall ran successfully with params: $@"
 }
 
 upgrade () {
-    echo "topic.sh upgrade ran successfully"
+printf "topic.sh upgrade ran successfully with params: $@"
 }
 
 update () {
-    echo "topic.sh update ran successfully"
+printf "topic.sh update ran successfully with params: $@"
 }
 
 freeze () {
-    echo "topic.sh freeze ran successfully"
+printf "topic.sh freeze ran successfully with params: $@"
 }
+
+$@
