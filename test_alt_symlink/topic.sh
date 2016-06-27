@@ -1,3 +1,5 @@
+#!/usr/bin/sh
+
 install () {
 printf "topic.sh install ran successfully with params: $@"
 }
@@ -18,4 +20,4 @@ freeze () {
 printf "topic.sh freeze ran successfully with params: $@"
 }
 
-$@
+"$@"
